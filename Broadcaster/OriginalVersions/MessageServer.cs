@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Broadcaster
+namespace Broadcaster.OriginalVersions
 {
     internal class MessageServer
     {

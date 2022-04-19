@@ -1,9 +1,8 @@
 ﻿using System;
-using Broadcaster.Server;
 
-namespace Broadcaster
+namespace Broadcaster.OriginalVersions
 {
-    public class MessageClient : IMessageClient
+    internal class MessageClient
     {
         private readonly string _name;
         private readonly MessageServer _messageServer;
