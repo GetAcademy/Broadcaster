@@ -9,6 +9,7 @@ namespace Broadcaster
             var server = new MessageServer();
             var client1 = new MessageClient("Ludvigsen", server);
             var client2 = new MessageClient("Knutsen", server, 50);
+            var client3 = new MessageClient("StilleKnut", server, 100);
             client1.Send("Hallo!");
             client2.Send("Hallo!");
             client1.Send("Hvordan står det til?");
