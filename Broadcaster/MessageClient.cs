@@ -21,10 +21,10 @@ namespace Broadcaster
 
         public void Receive(string message)
         {
-            _messageCount++;
             Console.CursorLeft = _col;
             Console.CursorTop = _messageCount;
             Console.WriteLine(message);
+            _messageCount++;
         }
 
         public void Send(string message)
